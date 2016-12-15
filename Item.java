@@ -1,4 +1,4 @@
-﻿package rpg;
+﻿package octopus;
 
 public class Item {
 private static String name;

@@ -1,4 +1,4 @@
-﻿package rpg;
+﻿package octopus;
 
 import java.util.LinkedList;
 

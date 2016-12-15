@@ -1,4 +1,4 @@
-﻿package rpg;
+﻿package octopus;
 
 public class Monster {
 private String name;
