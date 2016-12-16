@@ -15,16 +15,17 @@ public void initRoom() {
 	 * 
 	 * int minProbability = 1;
 	 * int maxProbability = 80;
-	 * int probabilityOfChests = random.nextInt(max - min + 1) + min;
+	 * int probabilityOfChests = random.nextInt(maxProbability - minProbability + 1) + minProbability;
 	 * if (probabilityOfChests == 1) {
 	 * int minCountOfItem = 0;
 	 * int maxCountOfItem = 3;
-	 * int countOfChests = random.nextInt(max - min + 1) + min;
+	 * int countOfChests = random.nextInt(maxCountOfItem - minCountOfItem + 1) + minCountOfItem;
 	 * for(i=0; i<=countOfChests; i++) {
 	 * loot.add(newItem());
 	 * 	}
 	 * }
 	 * entry = player.getCurrentRoom;
+	 * 
 	 */
 }
 }
